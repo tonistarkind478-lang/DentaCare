@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DentaCare - Современная стоматология</title>
+    <meta name="description" content="Лечение зубов без боли. Имплантация, виниры и ортодонтия. Запишитесь на прием.">
+    
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="https://unpkg.com/framer-motion@10.16.4/dist/framer-motion.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                primary: '#0D9488', // Teal
+                secondary: '#CCFBF1',
+                dark: '#0F172A',
+              },
+              fontFamily: {
+                sans: ['Inter', 'sans-serif'],
+              }
+            }
+          }
+        }
+    </script>
+</head>
+<body>
+
+    <div id="root"></div>
+
+    <script type="text/babel" src="script.js"></script>
+</body>
+</html>
